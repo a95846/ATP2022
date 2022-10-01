@@ -1,0 +1,19 @@
+##TPC2
+
+import random 
+
+n = random.randint(0, 100)
+guess= None 
+
+while n != "guess":
+    print
+    if guess < n:
+        print "O numero que pensei é menor!"
+        guess = int(input("Tentar outra vez "))
+    elif guess > n:
+        print "O numero que pensei é maior"
+        guess = int(input("Tenta outra vez "))
+    else:
+        print "Acertou!!!"
+        break
+    print (guess)
