@@ -1,21 +1,18 @@
 ##TPC2
 
+import random
+
 n= random.randint(1,100)
-
-baixo = input("Introduz um numero mais baixo: ")
- 
-
-alto = input("Introduz um numero mais alto: ")
-
 
 num = int(input("Adivinha o numero"))
  
-
 if n == num:
     print("Acertou!!")
 
 elif n > num :
     print("O teu numero é muito baixo", alto )
+alto = input("Introduz um numero mais alto: ")
 
 elif n < num :
     print("O teu numero é muito alto", baixo)
+    baixo = input("Introduz um numero mais baixo: ")
