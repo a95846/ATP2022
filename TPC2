@@ -13,6 +13,6 @@ elif n > num :
     print("O teu numero é muito baixo", alto )
 alto = input("Introduz um numero mais alto: ")
 
-elif n < num :
+elif n < num:
     print("O teu numero é muito alto", baixo)
     baixo = input("Introduz um numero mais baixo: ")
