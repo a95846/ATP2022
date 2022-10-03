@@ -8,7 +8,7 @@ baixo = input("Introduz um numero mais baixo: ")
 alto = input("Introduz um numero mais alto: ")
 
 
-num = input("Adivinha o numero")
+num = int(input("Adivinha o numero"))
  
 
 if n == num:
